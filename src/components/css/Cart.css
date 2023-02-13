@@ -1,0 +1,47 @@
+.btn-sort{
+    border: none;
+}
+.btn-sortBy{
+    margin-top: 1%;
+}
+.img-content{
+    width: 100%;
+    height: 60%;
+}
+.left{
+    text-align: left;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.btn-sortBy{
+    text-align: right;
+    margin-top: 2%;
+
+}
+.total-product{
+    display: inline;
+    margin-right: 2%;
+}
+.button-btn{
+    border: none;
+    border-radius: 20%;
+    color: #518581;
+}
+.content-title{
+    text-align: left;
+
+}
+.content-title p{
+    color: #AFADB5;
+}
+
+.title-cart-content{
+    font-size: 20px;
+}
+.col-4{
+    height: 500px;
+}
+.content-center-cart{
+    border-bottom: 2px solid #EEE7E2;
+    padding-bottom: 5%;
+}
