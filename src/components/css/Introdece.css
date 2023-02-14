@@ -51,3 +51,51 @@
 .title-content-introduce{
     margin-top: -20%;
 }
+.carousel-inner{
+    position: relative;
+}
+#btn{
+   
+ 
+    border-radius: 20px;
+    padding: 7px;
+    color: white;
+    background-color: #518581;
+    border: none;
+    margin-bottom: 10px;
+}
+.discount{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    text-align: left;
+}
+.discount p{
+    color: #D0D8CB;
+    font-size: 15px;
+}
+.discount h3{
+    font-weight: 700;
+
+    font-size: 20px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 80%;
+    animation: animationTitleDescription 5s linear infinite;
+    
+}@keyframes animationTitleDescription {
+      0% {
+        background-position-x: -500%;
+      }
+      100% {
+        background-position-x: 500%;
+      }
+}
+.fa-filter{
+    margin-right: 10px;
+}

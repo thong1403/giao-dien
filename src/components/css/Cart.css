@@ -1,5 +1,6 @@
 .btn-sort{
     border: none;
+    padding: 5px;
 }
 .btn-sortBy{
     margin-top: 1%;
@@ -44,4 +45,8 @@
 .content-center-cart{
     border-bottom: 2px solid #EEE7E2;
     padding-bottom: 5%;
+}
+.number{
+    display: flex;
+    margin: auto;
 }

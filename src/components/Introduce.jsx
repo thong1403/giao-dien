@@ -35,7 +35,6 @@ function Introduce() {
           ></button>
         </div>
         <div class="carousel-inner">
-        
           <div class="carousel-item active">
             <img
               src="https://s3-alpha-sig.figma.com/img/d721/1d4c/59a3541665aba6404a176b8b361a16fb?Expires=1677456000&Signature=D75MIp8FKwq9xrjz74KejbXtL0maAzKI5i4HOzA-MmpO6EmjNcUWEk5122KD6jSkVHZE4rFRgYphHL4GgrdfCh-0jtsSXSbTDnR9vRcjkJGDC3WJgPNTeGeav44yCK07pVGMTvSEOFE1CWO12vTBkvNPjueJcuPg84iTM5idlmwoHy2j1eoePpzm2z35gJWpl79Do~l0obLm9Ga3pGs3ZG4sx0wj8iqMIoVkp-UKbu-~IdM3EokJMFyMTRNLXKAZYzhk36KG23fcqw~ONtgTaJNiybLG9CfyQFyUgJkaKA~TYHChu8wfktU4XjQYDQM5KRuJfKjSJ81tGRzK8fBY0w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
@@ -57,7 +56,14 @@ function Introduce() {
               className="img-introduce"
             />
           </div>
-          
+          <div className="discount">
+            <button id="btn">Discount</button>
+            <h3>Ramadhan Sale Offer</h3>
+            <p>
+              Get 40% off for the first transaction <br />
+              on Lalasia
+            </p>
+          </div>
         </div>
         <button
           class="carousel-control-prev"
@@ -68,6 +74,7 @@ function Introduce() {
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
+
         <button
           class="carousel-control-next"
           type="button"
@@ -77,7 +84,6 @@ function Introduce() {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-        
       </div>
 
       <nav className="navbar bg-body-tertiary">
